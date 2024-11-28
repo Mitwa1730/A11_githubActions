@@ -20,7 +20,7 @@ output_filename = sys.argv[2]
 
 number_found = False
 
-with open(input_filename, 'r') as input_file:
+with open(input_filename, 'w') as input_file:
     for line in input_file:
         if number_found == False:
             try:
